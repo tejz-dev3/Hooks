@@ -1,4 +1,5 @@
 import './App.css'
+import UseEffect from './components/UseEffect/UseEffect'
 import Usestate from './components/UseState/Usestate'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <div>
           <Usestate />
+          <UseEffect />
       </div>
     </>
   )
